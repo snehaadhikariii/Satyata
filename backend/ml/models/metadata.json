@@ -1,0 +1,21 @@
+{
+  "tfidf_max_features": 5000,
+  "tfidf_vocab_size": 5000,
+  "embedding_model": "xlm-roberta-base",
+  "embedding_dim": 768,
+  "total_feature_dim": 5768,
+  "labels": [
+    "REAL",
+    "FAKE"
+  ],
+  "label2id": {
+    "REAL": 0,
+    "FAKE": 1
+  },
+  "train_rows": 7070,
+  "test_rows": 1768,
+  "shap_background_rows": 100,
+  "trained_at": "2026-07-02 16:10:47",
+  "training_seconds": 133.8,
+  "dataset_path": "/Users/sneha/satyata/backend/mlmodels/dataset.csv"
+}
